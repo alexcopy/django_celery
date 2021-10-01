@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+celery = "*"
+redis = "*"
+django = "*"
+django-db = "*"
+django-celery-beat = "*"
+django-celery-results = "*"
+requests = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
